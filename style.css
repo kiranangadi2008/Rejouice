@@ -357,3 +357,27 @@ video {
     font-size: 20vw;
     font-family: gilb;
 }
+
+@media (max-width:700px) {
+    .textmain{
+        flex-direction: column;
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .textleft, .textright{
+        width: 90%;
+    }
+    .textleft h2, .textright h2{
+        font-size: 4vw;
+        width: 100%;
+        margin-top: 3vw;
+    }
+    .page4{
+        flex-direction: column;
+    }
+    .leftimg img, .rightimg img{
+        height: 110vw;
+    }
+    
+}
